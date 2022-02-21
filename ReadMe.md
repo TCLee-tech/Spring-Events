@@ -1,6 +1,6 @@
 # Spring-Events
 
-The JAVA project is broken into several packages, i.e. customer, email, analytics, logging, order, promotion, ticket. Each package represents an event. The java files between packages are loosely coupled using Spring Events.
+The JAVA project is broken into several packages, i.e. customer, email, analytics, logging, order, promotion, ticket. Each package involves a component of Spring Event. The packages are loosely coupled, demonstrating different approaches in Spring Events.
 
 | File name |Description |
 | ---                                               | ---                                           |
