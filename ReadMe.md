@@ -1,5 +1,7 @@
 # Spring-Events
 
+The JAVA project is broken into several packages, i.e. customer, email, analytics, logging, order, promotion, ticket. Each package represents an event. The java files between packages are loosely coupled using Spring Events.
+
 | File name |Description |
 | ---                                               | ---                                           |
 | registerCustomer_forNewCustomer_sendsAnEmail Test | Test result for synchronous event processing. \Object -> event -> publish Event -> EventListener -> implementation |
@@ -22,7 +24,7 @@ Project Lombok
 
 https://projectlombok.org/ 
 
--@Data 
+- @Data 
 
 https://projectlombok.org/features/Data 
 
